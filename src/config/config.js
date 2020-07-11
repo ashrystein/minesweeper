@@ -43,6 +43,10 @@ const fonts = {
     small:10
 }
 
+const icons = {
+    mine:'💣'
+}
+
 export {
     cell,
     dims,
@@ -51,5 +55,6 @@ export {
     animationConfig,
     messages,
     countsColors,
-    fonts
+    fonts,
+    icons
 }

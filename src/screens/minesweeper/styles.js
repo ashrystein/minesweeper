@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
       flex: 1,
       flexDirection: 'row',
       justifyContent: "space-between",
-      marginHorizontal:20
+      marginHorizontal:10
     },
     board:{
       width:width,

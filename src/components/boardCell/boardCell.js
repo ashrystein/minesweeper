@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import {TouchableOpacity,Text} from 'react-native';
 import styles from './styles';
-import {colors,countsColors} from '../../config/config';
+import {colors,countsColors,icons} from '../../config/config';
 
 
 const BoardCell = (props) => {
@@ -22,7 +22,7 @@ const BoardCell = (props) => {
                     setColor(colors.cellDark);
                     return;
                 case '*':
-                    setValue('💣');
+                    setValue(icons.mine);
                     setColor(colors.cellDark);
                     setContentColor(colors.red)
                     return;
