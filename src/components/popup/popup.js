@@ -76,12 +76,14 @@ const Popup = (props) => {
     },[])
 
     return(
-        <Animated.View style={[styles.container,transformStyle]}>
-            <Text style={styles.message}>{messages[props.result]}</Text>
-            <TouchableOpacity style={styles.btn} onPress={()=>retry()}>
-                <Text style={styles.btnText}>Retry</Text>
-            </TouchableOpacity>
-        </Animated.View>
+        <View style={styles.cover}>
+            <Animated.View style={[styles.container,transformStyle]}>
+                <Text style={styles.message}>{messages[props.result]}</Text>
+                <TouchableOpacity style={styles.btn} onPress={()=>retry()}>
+                    <Text style={styles.btnText}>Retry</Text>
+                </TouchableOpacity>
+            </Animated.View>
+        </View>
     )
 }
 

@@ -18,7 +18,8 @@ const colors = {
     white:'#fff',
     red:'#E53935',
     black:'#000',
-    gold:'#FFC107'
+    gold:'#FFC107',
+    transparent:'rgba(0,0,0,0.4)'
 }
 
 const animationConfig = {

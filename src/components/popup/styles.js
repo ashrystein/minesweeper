@@ -4,6 +4,15 @@ import {dims,colors} from '../../config/config';
 const {width,height} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
+  cover:{
+    position:"absolute",
+    alignItems:"center",
+    backgroundColor:colors.transparent,
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+  },
   container:{
     position:"absolute",
     bottom:0,
